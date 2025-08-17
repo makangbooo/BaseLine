@@ -1,0 +1,18 @@
+# Tokenizer
+A tokenizer is in charge of preparing the inputs for a model. The library contains tokenizers for all the models. Most of the tokenizers are available in two flavors: a full python implementation and a “Fast” implementation based on the Rust library 🤗 [Tokenizers](https://github.com/huggingface/tokenizers). The “Fast” implementations allows:
+1. a significant speed-up in particular when doing batched tokenization and
+2. additional methods to map between the original string (character and words) and the token space (e.g. getting the index of the token comprising a given character or the span of characters corresponding to a given token).
+
+The base classes [PreTrainedTokenizer](https://huggingface.co/docs/transformers/v4.52.3/en/main_classes/tokenizer#transformers.PreTrainedTokenizer) and [PreTrainedTokenizerFast](https://huggingface.co/docs/transformers/v4.52.3/en/main_classes/tokenizer#transformers.PreTrainedTokenizerFast) implement the common methods for encoding string inputs in model inputs (see below) and instantiating/saving python and “Fast” tokenizers either from a local file or directory or from a pretrained tokenizer provided by the library (downloaded from HuggingFace’s AWS S3 repository). They both rely on [PreTrainedTokenizerBase](https://huggingface.co/docs/transformers/v4.52.3/en/internal/tokenization_utils#transformers.PreTrainedTokenizerBase) that contains the common methods, and [SpecialTokensMixin](https://huggingface.co/docs/transformers/v4.52.3/en/internal/tokenization_utils#transformers.SpecialTokensMixin).
+
+[PreTrainedTokenizer](https://huggingface.co/docs/transformers/v4.52.3/en/main_classes/tokenizer#transformers.PreTrainedTokenizer) and [PreTrainedTokenizerFast](https://huggingface.co/docs/transformers/v4.52.3/en/main_classes/tokenizer#transformers.PreTrainedTokenizerFast) thus implement the main methods for using all the tokenizers:
+- Tokenizing (splitting strings in sub-word token strings), converting tokens strings to ids and back, and encoding/decoding (i.e., tokenizing and converting to integers).
+- Adding new tokens to the vocabulary in a way that is independent of the underlying structure (BPE, SentencePiece…).
+- Managing special tokens (like mask, beginning-of-sentence, etc.): adding them, assigning them to attributes in the tokenizer for easy access and making sure they are not split during tokenization.
+
+[BatchEncoding](https://huggingface.co/docs/transformers/v4.52.3/en/main_classes/tokenizer#transformers.BatchEncoding) holds the output of the [PreTrainedTokenizerBase](https://huggingface.co/docs/transformers/v4.52.3/en/internal/tokenization_utils#transformers.PreTrainedTokenizerBase)’s encoding methods (`_call_`, `encode_plus` and `batch_encode_plus`) and is derived from a Python dictionary. When the tokenizer is a pure python tokenizer, this class behaves just like a standard python dictionary and holds the various model inputs computed by these methods (`input_ids`, `attention_mask`…).
+
+## Multimodal Tokenizer
+Apart from that each tokenizer can be a “multimodal” tokenizer which means that the tokenizer will hold all relevant special tokens as part of tokenizer attributes for easier access. For example, if the tokenizer is loaded from a vision-language model like LLaVA, you will be able to access `tokenizer.image_token_id` to obtain the special image token used as a placeholder.
+
+To enable extra special tokens for any type of tokenizer, you have to add the following lines and save the tokenizer. Extra special tokens do not have to be modality related and can ne anything that the model often needs access to. In the below code, tokenizer at `output_dir` will have direct access to three more special tokens.

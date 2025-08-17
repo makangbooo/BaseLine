@@ -1,0 +1,7 @@
+# ninja log v6
+1	50	1730530377604839498	CMakeFiles/untitled.dir/1_LinearList/Linklist/FormLinkList/test1.c.o	93981486fb17c3e0
+1	101	1730493083312252355	CMakeFiles/untitled.dir/demo1/demo1.c.o	ce2db5d19e19d8a2
+45	80	1730531702165922929	untitled	1b4a6d74eb3264ed
+1	45	1730531702121862592	CMakeFiles/untitled.dir/main.c.o	de122312bbf36771
+1	50	1730532091463740800	build.ninja	3e2f1d8bc2f6551c
+1	105	1730493819340494762	CMakeFiles/untitled.dir/1_LinearList/Linklist/FormLinkList/main.c.o	cf77c3e55d44c6bd
