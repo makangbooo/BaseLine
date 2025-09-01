@@ -1,0 +1,13 @@
+# ninja log v5
+1	190	6856262861600585	CMakeFiles/4_ThreadedTree.dir/main.c.obj	39d9cbbfee429afb
+193	437	6856262864024540	4_ThreadedTree.exe	54ddc642fee8cdb4
+3	195	6856327532904544	CMakeFiles/4_ThreadedTree.dir/main.c.obj	39d9cbbfee429afb
+196	434	6856327535232231	4_ThreadedTree.exe	54ddc642fee8cdb4
+3	146	6856329458640470	CMakeFiles/4_ThreadedTree.dir/main.c.obj	39d9cbbfee429afb
+147	364	6856329460757536	4_ThreadedTree.exe	54ddc642fee8cdb4
+3	136	6856330897323944	CMakeFiles/4_ThreadedTree.dir/main.c.obj	39d9cbbfee429afb
+138	363	6856330899539973	4_ThreadedTree.exe	54ddc642fee8cdb4
+2	148	6856332237655491	CMakeFiles/4_ThreadedTree.dir/main.c.obj	39d9cbbfee429afb
+149	365	6856332239779779	4_ThreadedTree.exe	54ddc642fee8cdb4
+3	202	6856406067527428	CMakeFiles/4_ThreadedTree.dir/main.c.obj	39d9cbbfee429afb
+203	448	6856406069916710	4_ThreadedTree.exe	54ddc642fee8cdb4

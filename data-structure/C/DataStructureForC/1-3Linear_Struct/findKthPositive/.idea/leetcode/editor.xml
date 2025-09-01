@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[1539]第 k 个缺失的正整数.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/doc/content/[1539]第 k 个缺失的正整数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1539" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[1539]第 k 个缺失的正整数.c" />
+              <option name="titleSlug" value="kth-missing-positive-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[206]反转链表.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/doc/content/[206]反转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn206" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[206]反转链表.c" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[20]有效的括号.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/doc/content/[20]有效的括号.md" />
+              <option name="frontendQuestionId" value="leetcode.cn20" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[20]有效的括号.c" />
+              <option name="titleSlug" value="valid-parentheses" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[61]旋转链表.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/doc/content/[61]旋转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn61" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[61]旋转链表.c" />
+              <option name="titleSlug" value="rotate-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[81]搜索旋转排序数组 II.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/doc/content/[81]搜索旋转排序数组 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn81" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[81]搜索旋转排序数组 II.c" />
+              <option name="titleSlug" value="search-in-rotated-sorted-array-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[83]删除排序链表中的重复元素.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/doc/content/[83]删除排序链表中的重复元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn83" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../../leetcode/tempfile/leetcode/editor/cn/[83]删除排序链表中的重复元素.c" />
+              <option name="titleSlug" value="remove-duplicates-from-sorted-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+/Users/makangbo/code/myCProject/DataStructureForC/1-3Linear_Struct/findKthPositive/cmake-build-debug/CMakeFiles/1_DelDuplicates.dir
+/Users/makangbo/code/myCProject/DataStructureForC/1-3Linear_Struct/findKthPositive/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/makangbo/code/myCProject/DataStructureForC/1-3Linear_Struct/findKthPositive/cmake-build-debug/CMakeFiles/rebuild_cache.dir

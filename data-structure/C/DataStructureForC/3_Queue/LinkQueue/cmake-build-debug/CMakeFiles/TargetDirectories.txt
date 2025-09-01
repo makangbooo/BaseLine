@@ -1,0 +1,3 @@
+C:/Users/25122/Desktop/C/DataStructures/3_Queue/LinkQueue/cmake-build-debug/CMakeFiles/LinkQueue.dir
+C:/Users/25122/Desktop/C/DataStructures/3_Queue/LinkQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/25122/Desktop/C/DataStructures/3_Queue/LinkQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

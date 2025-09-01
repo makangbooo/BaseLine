@@ -1,0 +1,3 @@
+C:/Users/25122/Desktop/C/DataStructures/10-Sort/2.HeapSort/cmake-build-debug/CMakeFiles/2_HeapSort.dir
+C:/Users/25122/Desktop/C/DataStructures/10-Sort/2.HeapSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/25122/Desktop/C/DataStructures/10-Sort/2.HeapSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir

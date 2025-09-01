@@ -1,0 +1,3 @@
+C:/Users/25122/Desktop/C/DataStructures/2_Stack/stack_form/cmake-build-debug/CMakeFiles/stack_form.dir
+C:/Users/25122/Desktop/C/DataStructures/2_Stack/stack_form/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/25122/Desktop/C/DataStructures/2_Stack/stack_form/cmake-build-debug/CMakeFiles/rebuild_cache.dir
